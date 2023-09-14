@@ -4,6 +4,9 @@ public class TesteLivroDeNotas{
         var livroDeNotas = new LivroDeNotas(nomeDisciplina);
         //livroDeNotas.nomeDisciplina = nomeDisciplina;
         livroDeNotas.exibirMensagem();
+        System.out.printf("A disciplina e " + livroDeNotas.getNomeDisciplina());
+        String nome = "ABC";
         System.out.println("\nAte logo ");
+        livroDeNotas.setNomeDisciplina("Portugues");
     }
 }
